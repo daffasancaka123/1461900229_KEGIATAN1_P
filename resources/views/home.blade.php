@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Home</title>
+    <h1>Home</h1>
 </head>
 <body>
-    <p>Home</p>
+<a href="{{url('/artikel')}}">Artikel</a>
+<a href="{{url('/kontak')}}">Kontak</a>
 </body>
-<a href="{{url('/artikel')}}">Pindah Halaman</a>
 </html>
